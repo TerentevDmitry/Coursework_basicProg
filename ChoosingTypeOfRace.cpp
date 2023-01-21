@@ -1,8 +1,10 @@
 
 #include "ChoosingTypeOfRace.h"
 
-int ChoosingTypeOfRace(unsigned int typeOfRace)
+int ChoosingTypeOfRace()
 {
+    int typeOfRace = 0;
+
     do
     {
         std::cout << "1. Гонка для наземного транспорта" << std::endl;
@@ -17,7 +19,7 @@ int ChoosingTypeOfRace(unsigned int typeOfRace)
     return typeOfRace;
 };
 
-bool checkChoosingTypeOfRace(unsigned int typeOfRace)
+bool checkChoosingTypeOfRace(int typeOfRace)
 {
     if (typeOfRace == 1)
     {
@@ -36,7 +38,7 @@ bool checkChoosingTypeOfRace(unsigned int typeOfRace)
     }
     else
     {
-        std::cout << "Вы выбрали несуществующую гонку." << std::endl << std::endl;
+        std::cout << "Вы выбрали несуществующую гонку / nbg." << std::endl << std::endl;
         return false;
     }
 };

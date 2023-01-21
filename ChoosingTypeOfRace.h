@@ -1,7 +1,6 @@
 #pragma once
 #include <iostream>
 
-int ChoosingTypeOfRace(unsigned int typeOfRace);
+int ChoosingTypeOfRace();
 
-bool checkChoosingTypeOfRace(unsigned int typeOfRace);
-
+bool checkChoosingTypeOfRace(int typeOfRace);
