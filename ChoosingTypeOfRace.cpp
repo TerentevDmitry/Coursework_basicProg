@@ -38,7 +38,7 @@ bool checkChoosingTypeOfRace(int typeOfRace)
     }
     else
     {
-        std::cout << "Вы выбрали несуществующую гонку / nbg." << std::endl << std::endl;
+        std::cout << "Вы выбрали несуществующую гонку." << std::endl << std::endl;
         return false;
     }
 };
