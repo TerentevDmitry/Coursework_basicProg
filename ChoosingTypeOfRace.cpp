@@ -12,6 +12,19 @@ int ChoosingTypeOfRace()
         std::cout << "3. Гонка для наземного и воздушного транспорта" << std::endl;
         std::cout << "Выберите тип гонки: ";
         std::cin >> typeOfRace;
+
+        while (!std::cin.good())
+        {
+            std::cin.clear();
+            std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+            std::cout << "Вы ввели неверные данные." << std::endl;
+            std::cout << "1. Гонка для наземного транспорта" << std::endl;
+            std::cout << "2. Гонка для воздушного транспорта" << std::endl;
+            std::cout << "3. Гонка для наземного и воздушного транспорта" << std::endl;
+            std::cout << "Выберите тип гонки: ";
+            std::cin >> typeOfRace;
+        };
+
         std::cout << std::endl;
 
     } while (!checkChoosingTypeOfRace(typeOfRace));

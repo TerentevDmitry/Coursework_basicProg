@@ -133,6 +133,11 @@
   <ItemGroup>
     <ClInclude Include="ChoosingTypeOfRace.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="DynamicLibraryTransport\DynamicLibraryTransport.vcxproj">
+      <Project>{7a3e3736-a5d1-4516-8e99-132ce66fcd30}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
