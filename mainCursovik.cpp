@@ -19,7 +19,15 @@ int main()
     //bool checkTrueTypeOfRace = false;
 
     //Цикл выбора типа гонки
-    
+    do
+    {
+        std::cout << "1. Гонка для наземного транспорта" << std::endl;
+        std::cout << "2. Гонка для воздушного транспорта" << std::endl;
+        std::cout << "3. Гонка для наземного и воздушного транспорта" << std::endl;
+        std::cout << "Выберите тип гонки: ";
+        std::cin >> typeOfRace;
+        std::cout << std::endl;
+        
     typeOfRace = ChoosingTypeOfRace(typeOfRace);
     
         std::cout << std::endl << "typeOfRace" << typeOfRace << std::endl;
