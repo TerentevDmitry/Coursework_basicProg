@@ -21,9 +21,6 @@ int main()
         
     typeOfRace = ChoosingTypeOfRace();
     
-        std::cout << std::endl << "ПРОВЕРКА: typeOfRace " << typeOfRace << std::endl;
-    
-
     do
     {
         std::cout << "Укажите длину дистанции (должна быть положительна): ";
@@ -34,11 +31,6 @@ int main()
 
     std::cout << "ВНИМАНИЕ: Должно быть зарегистрировано минимум два транспортных средства!" << std::endl;
 
-    //std::cout << "2. Гонка для воздушного транспорта" << std::endl;
-    //std::cout << "3. Гонка для наземного и воздушного транспорта" << std::endl;
-    //std::cout << "Выберите тип гонки: ";
-    //std::cin >> typeOfRace;
-    //std::cout << std::endl;
     
     
     
