@@ -128,12 +128,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="ChoosingTypeOfRace.cpp" />
+    <ClCompile Include="GroundTransportRegistration.cpp" />
     <ClCompile Include="mainCursovik.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="ChoosingTypeOfRace.h" />
+    <ClInclude Include="GroundTransportRegistration.h" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="DynamicLibraryRace\DynamicLibraryRace.vcxproj">
+      <Project>{506ef5f6-40db-435f-aa84-89e8c38d5989}</Project>
+    </ProjectReference>
     <ProjectReference Include="DynamicLibraryTransport\DynamicLibraryTransport.vcxproj">
       <Project>{7a3e3736-a5d1-4516-8e99-132ce66fcd30}</Project>
     </ProjectReference>

@@ -3,4 +3,6 @@
 
 int ChoosingTypeOfRace();
 
-bool checkChoosingTypeOfRace(int typeOfRace);
+bool CheckChoosingTypeOfRace(int typeOfRace);
+
+int PrintChoosingTypeOfRace(int typeOfRace);

@@ -1,4 +1,3 @@
-
 #include "ChoosingTypeOfRace.h"
 
 int ChoosingTypeOfRace()
@@ -7,46 +6,49 @@ int ChoosingTypeOfRace()
 
     do
     {
-        std::cout << "1. Гонка для наземного транспорта" << std::endl;
-        std::cout << "2. Гонка для воздушного транспорта" << std::endl;
-        std::cout << "3. Гонка для наземного и воздушного транспорта" << std::endl;
-        std::cout << "Выберите тип гонки: ";
-        std::cin >> typeOfRace;
-
+        typeOfRace = PrintChoosingTypeOfRace(typeOfRace);
+       
         while (!std::cin.good())
         {
             std::cin.clear();
             std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
-            std::cout << "Вы ввели неверные данные." << std::endl;
-            std::cout << "1. Гонка для наземного транспорта" << std::endl;
-            std::cout << "2. Гонка для воздушного транспорта" << std::endl;
-            std::cout << "3. Гонка для наземного и воздушного транспорта" << std::endl;
-            std::cout << "Выберите тип гонки: ";
-            std::cin >> typeOfRace;
+            typeOfRace = PrintChoosingTypeOfRace(typeOfRace);
         };
 
         std::cout << std::endl;
 
-    } while (!checkChoosingTypeOfRace(typeOfRace));
+    } while (!CheckChoosingTypeOfRace(typeOfRace));
 
     return typeOfRace;
 };
 
-bool checkChoosingTypeOfRace(int typeOfRace)
+int PrintChoosingTypeOfRace(int typeOfRace)
+{
+    std::cout << "1. Гонка для наземного транспорта" << std::endl;
+    std::cout << "2. Гонка для воздушного транспорта" << std::endl;
+    std::cout << "3. Гонка для наземного и воздушного транспорта" << std::endl;
+    std::cout << "Выберите тип гонки: ";
+    std::cin >> typeOfRace;
+
+    return typeOfRace;
+};
+
+
+bool CheckChoosingTypeOfRace(int typeOfRace)
 {
     if (typeOfRace == 1)
     {
-        std::cout << "Вы выбрали гонку для наземного транспорта" << std::endl;
+        std::cout << "Вы выбрали 1. гонку для наземного транспорта" << std::endl;
         return true;
     }
     else if (typeOfRace == 2)
     {
-        std::cout << "Вы выбрали гонку для воздушного транспорта" << std::endl;
+        std::cout << "Вы выбрали 2. гонку для воздушного транспорта" << std::endl;
         return true;
     }
     else if (typeOfRace == 3)
     {
-        std::cout << "Вы выбрали гонку для наземного и воздушного транспорта" << std::endl;
+        std::cout << "Вы выбрали 3. гонку для наземного и воздушного транспорта" << std::endl;
         return true;
     }
     else

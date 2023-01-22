@@ -4,15 +4,16 @@
 
 namespace TransportOfRace
 {
-	GroundTransportCamel::GroundTransportCamel()
+		GroundTransportCamel::GroundTransportCamel()
 	{
 		Transport::transportName_ = "Верблюд";
 		Transport::transportSpeed_ = 10;
-		Transport::transportDrivingTimeBeforeRest_ = 30;
-		Transport::transportDurationOfRest1_ = 5;
+		Transport::transportDrivingTimeBeforeRest_ = 6;
+		Transport::transportDurationOfRest1_ = 3;
 		Transport::transportDurationOfRestLast_ = 8;
+
 	};
-	
+
 	GroundTransportCamelFast::GroundTransportCamelFast()
 	{
 		Transport::transportName_ = "Верблюд-быстроход";
@@ -22,13 +23,4 @@ namespace TransportOfRace
 		Transport::transportDurationOfRest2_ = 6.5;
 		Transport::transportDurationOfRestLast_ = 8;
 	};
-
-
-
-
-
-
-
-
-
 }

@@ -1,5 +1,7 @@
 #pragma once
 #include <string>
+#include <iostream>
+
 //DYNAMICLIBRARYRACE_EXPORTS
 
 #ifdef DYNAMICLIBRARYTRANSPORT_EXPORTS
@@ -14,7 +16,7 @@ namespace TransportOfRace
 	class DYNAMICLIBRARYTRANSPORT_API Transport
 	{
 	protected:
-		std::string transportName_; //имя
+		std::string transportName_ = "Дефолт имя"; //имя
 		bool transportSign_ = false; //признак (0 - наземный, 1 - воздушный)
 		int transportSpeed_ = 0; //скорость
 		int transportDrivingTimeBeforeRest_ = 0; //время движения до отдыха
@@ -22,15 +24,19 @@ namespace TransportOfRace
 		float transportDurationOfRest2_ = 0; //время отдыха второй раз
 		int transportDurationOfRestLast_ = 0; //время отдыха после второго раза
 		int transportDistanceReductionCoefficient_ = 1; //коэффициент сокращения расстояния
+		float racePassingTimeAll_ = 0;
+
+		
 
 	public:
+
 		std::string getTransportName();
-		int getTransportSign();
-		int getTransportSpeed();
-		int getTransportDrivingTimeBeforeRest();
-		int getTransportDurationOfRest1();
-		float getTransportDurationOfRest2();
-		int getTransportDurationOfRestLast();
-		int getTransportDistanceReductionCoefficient();
+		float getRacePassingTimeAll();
+		float racePassingTimeAll(TransportOfRace::Transport*, float raceDistance);
+
+		
+
+		//float racePassingTimeAll(TransportOfRace::Transport*, float raceDistance);
+
 	};
 };

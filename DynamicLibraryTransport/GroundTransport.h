@@ -10,16 +10,18 @@
 
 namespace TransportOfRace
 {
-
-
 	class DYNAMICLIBRARYTRANSPORT_API GroundTransportCamel : public TransportOfRace::Transport
 	{
+		//GroundTransportCamel();
+		//GroundTransportCamel(std::string transportName, int transportSpeed, int transportDrivingTimeBeforeRest,
+		//	int transportDurationOfRest1, int transportDurationOfRestLast);
+	public:
 		GroundTransportCamel();
 	};
 
 	class DYNAMICLIBRARYTRANSPORT_API GroundTransportCamelFast : public TransportOfRace::Transport
 	{
-
+	public:
 		GroundTransportCamelFast();
 	};
 
