@@ -7,8 +7,6 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Cursovik_basicProg", "Curso
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicLibraryTransport", "DynamicLibraryTransport\DynamicLibraryTransport.vcxproj", "{7A3E3736-A5D1-4516-8E99-132CE66FCD30}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DynamicLibraryRace", "DynamicLibraryRace\DynamicLibraryRace.vcxproj", "{506EF5F6-40DB-435F-AA84-89E8C38D5989}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -33,14 +31,6 @@ Global
 		{7A3E3736-A5D1-4516-8E99-132CE66FCD30}.Release|x64.Build.0 = Release|x64
 		{7A3E3736-A5D1-4516-8E99-132CE66FCD30}.Release|x86.ActiveCfg = Release|Win32
 		{7A3E3736-A5D1-4516-8E99-132CE66FCD30}.Release|x86.Build.0 = Release|Win32
-		{506EF5F6-40DB-435F-AA84-89E8C38D5989}.Debug|x64.ActiveCfg = Debug|x64
-		{506EF5F6-40DB-435F-AA84-89E8C38D5989}.Debug|x64.Build.0 = Debug|x64
-		{506EF5F6-40DB-435F-AA84-89E8C38D5989}.Debug|x86.ActiveCfg = Debug|Win32
-		{506EF5F6-40DB-435F-AA84-89E8C38D5989}.Debug|x86.Build.0 = Debug|Win32
-		{506EF5F6-40DB-435F-AA84-89E8C38D5989}.Release|x64.ActiveCfg = Release|x64
-		{506EF5F6-40DB-435F-AA84-89E8C38D5989}.Release|x64.Build.0 = Release|x64
-		{506EF5F6-40DB-435F-AA84-89E8C38D5989}.Release|x86.ActiveCfg = Release|Win32
-		{506EF5F6-40DB-435F-AA84-89E8C38D5989}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

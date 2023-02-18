@@ -1,0 +1,21 @@
+# ninja log v5
+13	242	6972827063392235	CMakeFiles/Cursovik_basicProgExe.dir/Enum.cpp.obj	ebcd455e0c9230bc
+2	462	6972827065255977	CMakeFiles/Cursovik_basicProgLib.dir/DynamicLibraryTransport/AirTransport.cpp.obj	ad82db3656bb17cb
+6	463	6972827065345676	CMakeFiles/Cursovik_basicProgLib.dir/DynamicLibraryTransport/Transport.cpp.obj	8b466441cbc3e836
+10	497	6972827065833917	CMakeFiles/Cursovik_basicProgExe.dir/ChoosingTypeOfRace.cpp.obj	4097b545c91111a1
+8	498	6972827065863818	CMakeFiles/Cursovik_basicProgExe.dir/mainCursovik.cpp.obj	64c890c7ed08bff7
+4	499	6972827065853875	CMakeFiles/Cursovik_basicProgLib.dir/DynamicLibraryTransport/GroundTransport.cpp.obj	9f4ebe067cb20337
+16	530	6972827066192435	CMakeFiles/Cursovik_basicProgExe.dir/TransportRegistration.cpp.obj	e8dfe806c9814c0f
+499	952	6972827069582499	Cursovik_basicProgLib.dll	2f0cbdfc00fc0c83
+499	952	6972827069582499	Cursovik_basicProgLib.lib	2f0cbdfc00fc0c83
+952	1425	6972827074102875	Cursovik_basicProgExe.exe	b90a4c399da45ed
+24	354	6974128055278297	CMakeFiles/Cursovik_basicProgExe.dir/Enum.cpp.obj	ebcd455e0c9230bc
+21	741	6974128058746688	CMakeFiles/Cursovik_basicProgExe.dir/ChoosingTypeOfRace.cpp.obj	4097b545c91111a1
+16	741	6974128058766598	CMakeFiles/Cursovik_basicProgLib.dir/DynamicLibraryTransport/Transport.cpp.obj	8b466441cbc3e836
+11	742	6974128058637031	CMakeFiles/Cursovik_basicProgLib.dir/DynamicLibraryTransport/AirTransport.cpp.obj	ad82db3656bb17cb
+18	786	6974128059364602	CMakeFiles/Cursovik_basicProgExe.dir/mainCursovik.cpp.obj	64c890c7ed08bff7
+14	787	6974128059384599	CMakeFiles/Cursovik_basicProgLib.dir/DynamicLibraryTransport/GroundTransport.cpp.obj	9f4ebe067cb20337
+787	1059	6974128060979193	Cursovik_basicProgLib.dll	2f0cbdfc00fc0c83
+787	1059	6974128060979193	Cursovik_basicProgLib.lib	2f0cbdfc00fc0c83
+27	1283	6974128064487451	CMakeFiles/Cursovik_basicProgExe.dir/TransportRegistration.cpp.obj	e8dfe806c9814c0f
+1283	1544	6974128065587154	Cursovik_basicProgExe.exe	b90a4c399da45ed

@@ -24,6 +24,7 @@
     <ProjectGuid>{7a3e3736-a5d1-4516-8e99-132ce66fcd30}</ProjectGuid>
     <RootNamespace>DynamicLibraryTransport</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>DynamicLibraryTransport</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -127,10 +128,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="AirTransport.h" />
     <ClInclude Include="GroundTransport.h" />
     <ClInclude Include="Transport.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="AirTransport.cpp" />
     <ClCompile Include="GroundTransport.cpp" />
     <ClCompile Include="Transport.cpp" />
   </ItemGroup>

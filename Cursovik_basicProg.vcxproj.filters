@@ -21,7 +21,10 @@
     <ClCompile Include="ChoosingTypeOfRace.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="GroundTransportRegistration.cpp">
+    <ClCompile Include="TransportRegistration.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="TypeOfRaceAndTransport.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -29,8 +32,14 @@
     <ClInclude Include="ChoosingTypeOfRace.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="GroundTransportRegistration.h">
+    <ClInclude Include="TransportRegistration.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
+    <ClInclude Include="TypeOfRaceAndTransport.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="CMakeLists.txt" />
   </ItemGroup>
 </Project>

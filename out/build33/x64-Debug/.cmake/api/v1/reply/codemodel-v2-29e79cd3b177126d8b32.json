@@ -1,0 +1,69 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Cursovik_basicProg",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Cursovik_basicProgExe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cursovik_basicProgExe-Debug-5998e1854e4a63a5a62b.json",
+					"name" : "Cursovik_basicProgExe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Cursovik_basicProgLib::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Cursovik_basicProgLib-Debug-0457e289bdecccd9c71c.json",
+					"name" : "Cursovik_basicProgLib",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "D:/re/0_CPP/1_basicProg/Cursovik_basicProg/out/build/x64-Debug",
+		"source" : "D:/re/0_CPP/1_basicProg/Cursovik_basicProg"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

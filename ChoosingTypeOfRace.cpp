@@ -1,4 +1,5 @@
 #include "ChoosingTypeOfRace.h"
+#include "TypeOfRaceAndTransport.h"
 
 int ChoosingTypeOfRace()
 {
@@ -33,20 +34,19 @@ int PrintChoosingTypeOfRace(int typeOfRace)
     return typeOfRace;
 };
 
-
 bool CheckChoosingTypeOfRace(int typeOfRace)
 {
-    if (typeOfRace == 1)
+    if (typeOfRace == static_cast <int> (TypeOfRaceAndTransport::RaceForGroundTransport))
     {
         std::cout << "¬ы выбрали 1. гонку дл€ наземного транспорта" << std::endl;
         return true;
     }
-    else if (typeOfRace == 2)
+    else if (typeOfRace == static_cast <int> (TypeOfRaceAndTransport::RaceForAirTransport))
     {
         std::cout << "¬ы выбрали 2. гонку дл€ воздушного транспорта" << std::endl;
         return true;
     }
-    else if (typeOfRace == 3)
+    else if (typeOfRace == static_cast <int> (TypeOfRaceAndTransport::RaceForGroundAndAirTransport))
     {
         std::cout << "¬ы выбрали 3. гонку дл€ наземного и воздушного транспорта" << std::endl;
         return true;
