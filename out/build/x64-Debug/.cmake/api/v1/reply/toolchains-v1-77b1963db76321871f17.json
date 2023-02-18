@@ -14,7 +14,7 @@
 					"linkLibraries" : []
 				},
 				"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe",
-				"version" : "19.34.31937.0"
+				"version" : "19.34.31942.0"
 			},
 			"language" : "C",
 			"sourceFileExtensions" : 
@@ -35,7 +35,7 @@
 					"linkLibraries" : []
 				},
 				"path" : "C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.34.31933/bin/Hostx64/x64/cl.exe",
-				"version" : "19.34.31937.0"
+				"version" : "19.34.31942.0"
 			},
 			"language" : "CXX",
 			"sourceFileExtensions" : 
